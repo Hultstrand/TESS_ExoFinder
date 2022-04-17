@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Code for creating catalog of "bad" training samples in the same format as TCE catalogs."""
+"""Code for creating catalog of "bad" training samples in the same format as TCE catalogs. Derived from the work of Yu et al. in https://arxiv.org/abs/1904.02726"""
 
 import pandas as pd
 import numpy as np
