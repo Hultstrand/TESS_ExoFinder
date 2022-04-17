@@ -20,8 +20,11 @@ Astroquery
 
 The following Python calls may be used to create the catalog that will be used to download light curves, generate TFREcords for training, and train the network.
 Before creating an empty catalog, TIC IDs of the interested light curves must be gathered and placed in a .txt file. 
+
 TCEs may be obtained via a sector bulk download from: https://archive.stsci.edu/tess/bulk_downloads/bulk_downloads_tce.html
+
 They may also be optained from the ExoFop TESS database: https://exofop.ipac.caltech.edu/tess/
+
 The dispositions of the TICs may be obtained from the ExoFop TESS database, manual assignment, or other databases.
 
 The tce-list.txt, tcesdatafile.txt, tces.csv, and TFRecords used in the original training of the model are included in the files.
@@ -60,5 +63,5 @@ The network accepts a local and global view of the light curve in two separate c
    
    #Output the accuracy, recall, precision, and F1 score of the network as recorded on the test data
    
-   python TESS_ExoFinder.py --tfrecord_dir=[location of TFRecords] --batch_size=32 --number_of_epochs=10 --learning_rate=0.00001 --prediction_threshold=0.8
+   python TESS_ExoFinder.py --tfrecord_dir=[location of TFRecords] --batch_size=32 --number_of_epochs=10 --learning_rate=0.00001 --prediction_threshold=0.7
 
