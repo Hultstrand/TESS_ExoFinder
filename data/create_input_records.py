@@ -13,6 +13,7 @@
 
 r"""Script to preprocesses data from the TESS space telescope.
 
+Derived from the work of Yu et al. in https://arxiv.org/abs/1904.02726
 This script produces training, validation and test sets of labeled TESS
 Threshold Crossing Events (TCEs). A TCE is a detected periodic event on a
 particular TESS target star that may or may not be a transiting planet. Each
