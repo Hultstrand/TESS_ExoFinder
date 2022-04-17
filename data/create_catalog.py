@@ -13,7 +13,7 @@
 # limitations under the License.
 
 """Functions for creating catalog of TESS TCEs, containing TIC IDs, BLS information, stellar params, sector, camera and
-CCD number."""
+CCD number. Derived from the work of Yu et al. in https://arxiv.org/abs/1904.02726"""
 
 import numpy as np
 import pandas as pd
