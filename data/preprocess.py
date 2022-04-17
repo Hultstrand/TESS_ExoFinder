@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Functions for reading and preprocessing light curves."""
+"""Functions for reading and preprocessing light curves. Derived from the work of Yu et al. in https://arxiv.org/abs/1904.02726"""
 
 from __future__ import absolute_import
 from __future__ import division
